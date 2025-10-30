@@ -1,0 +1,6 @@
+{
+    "app_name": "Student Info System",
+    "data_path": "data/students.json",
+    "log_path": "logs/app.log",
+    "default_format": "json"
+}
