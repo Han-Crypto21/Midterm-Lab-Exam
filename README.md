@@ -8,25 +8,32 @@ The Student Information System is a simple Node.js application that allows users
 - Git & GitHub account
 
 ## Setup
-1. Clone the repository.
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Han-Crypto21/Midterm-Lab-Exam.git
+   cd Midterm-Lab-Exam
+
+
+2. (Optional) Create a virtual environment
+
+python -m venv venv
+venv\Scripts\activate
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Run the main program
    
-git clone https://github.com/Han-Crypto21/Midterm-Lab-Exam.git
-cd Midterm-Lab-Exam
-
-2. Install dependencies.
-
-npm install
-
-3. Run the main program
-
-node src/index.js
+ python src/main.py
 
 ## Submission Form (fill before submitting)
-- GitHub repository URL: https://github.com/Han-Crypto21/Midterm-Lab-Exam.git
+GitHub repository URL: https://github.com/Han-Crypto21/Midterm-Lab-Exam.git
   
-- Student Name: Christian Rey B. Fajarito
+Student Name: Christian Rey B. Fajarito
   
-- Features implemented:
+Features implemented:
  Add new student records
  View all student records
  Search student by name or ID
@@ -36,7 +43,7 @@ node src/index.js
  Organized folder structure (src, data, logs)
  Git version control integration
 
-- Challenges faced:
+Challenges faced:
   Encountered Git errors (non-fast-forward push)
   Required creating .gitkeep files to track empty folders
   Adjusted JSON data handling for persistence
