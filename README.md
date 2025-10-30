@@ -34,20 +34,20 @@ GitHub repository URL: https://github.com/Han-Crypto21/Midterm-Lab-Exam.git
 Student Name: Christian Rey B. Fajarito
   
 Features implemented:
- Add new student records
- View all student records
- Search student by name or ID
- Update existing student details
- Delete student information
- Data persistence using students.json
- Organized folder structure (src, data, logs)
- Git version control integration
+Add new student records
+View all student records
+Search student by name or ID
+Update existing student details
+Delete student information
+Data persistence using students.json
+Organized folder structure (src, data, logs)
+Git version control integration
 
 Challenges faced:
-  Encountered Git errors (non-fast-forward push)
-  Required creating .gitkeep files to track empty folders
-  Adjusted JSON data handling for persistence
-  Understood command-line operations for Node.js and Git
+Encountered Git errors (non-fast-forward push)
+Required creating .gitkeep files to track empty folders
+Adjusted JSON data handling for persistence
+Understood command-line operations for Node.js and Git
 
 ## Project Structure
 See repository files and the `src/` folder for implementation.
